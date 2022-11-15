@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="438.0" prefWidth="511.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.weatherforecastapp.HelloController">
+   <children>
+      <AnchorPane layoutX="133.0" layoutY="14.0" prefHeight="67.0" prefWidth="265.0">
+         <children>
+            <Text layoutX="-13.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weather Forecast">
+               <font>
+                  <Font name="Arial Bold" size="34.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="city" layoutX="182.0" layoutY="93.0" promptText="Enter City Name" />
+      <Button fx:id="getData" layoutX="230.0" layoutY="138.0" mnemonicParsing="false" text="Search" />
+      <Text fx:id="temp_info" layoutX="65.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Temparature" />
+      <Text fx:id="temp_max" layoutX="65.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Max." />
+      <Text fx:id="temp_min" layoutX="65.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Min." />
+      <Text fx:id="temp_feel" layoutX="58.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Feeling" />
+      <Text fx:id="pressure" layoutX="55.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pressure" />
+   </children>
+</AnchorPane>
